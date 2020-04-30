@@ -3,18 +3,18 @@
 	font-family: cursive;
 	font-size: 17px;
 }
-body{
+/*body{
 	background-image: url(pexels-photo-255379.jpg);	
-	/*background-image: url(download.jpg);*/
-	background-repeat: no-repeat;
-	background-size: 100% 500%;
-}
-body:hover{
-	/*background-image: url(pexels-photo-255379.jpg);	*/
 	background-image: url(download.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 500%;
 }
+body:hover{
+	background-image: url(pexels-photo-255379.jpg);	
+	background-image: url(download.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 500%;
+}*/
 h1{
 	text-align: center;
 	font-size: 1.75em;
@@ -43,7 +43,7 @@ p{
 	font-size: 1.25em;
 	font-weight: bold;
 	float: right;
-	border: 3px solid black;
+	border: 5px solid black;
 	width: 90px;
 	text-align: center;
 	margin: 0px 0px 9px 0px;
@@ -55,6 +55,7 @@ section>div:nth-child(1) span{
 section>div:nth-child(2) span{
 	background-color: #701B0D;
 }
+
 section>div:nth-child(3) span{
 	background-color: #825B95;
 }
