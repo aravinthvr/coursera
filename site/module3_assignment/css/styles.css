@@ -1,0 +1,72 @@
+body{
+	background-color: #c1c1c1;
+	font-size: 16px;
+}
+#header-nav{
+	/*height: 100px;*/
+}
+.navbar-brand{
+	float: left;
+}
+#header-nav a:hover, #header-nav a:focus{
+	text-decoration: none;
+}
+#header-nav h1{
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	font-weight: bold;
+	color: #0000ef;
+	margin: 20px;
+	/*border: 1px solid #000;*/
+}
+#header-nav .navbar-toggle,#header-nav .navbar-toggle .icon-bar{
+	border: 1px solid #000;
+}
+.container button.navbar-toggle{
+	clear: both;
+	margin-top: -55px;
+	margin-bottom: 28px;
+}
+#nav-list{
+	border: 1px solid #000;
+	border-left: 0px;
+	border-right: 0px;
+	background-color: #12312373;
+}
+#nav-list a{
+	color: #0000ef;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color: #c1c1c1;
+	color: 
+}
+
+h2{
+	font-weight: bold;
+}
+.container .row section{
+	background-color: #670000;
+	margin: 25px 5px 35px 0px;
+	color: #fff;
+	text-align: justify;
+}
+
+.container .row section div{
+	font-weight: bold;
+	padding-top: 15px;
+}
+
+.container .row section p{
+	margin: 15px;
+	padding-bottom: 15px;4
+}
+.row > div:nth-child(2) section{
+	background-color: #004400;
+}
+.row > div:nth-child(3) section{
+	background-color: #000076;
+}
+#break{
+	border-top: 1px solid #000;
+}
